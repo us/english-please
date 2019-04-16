@@ -1,2 +1,5 @@
 six
 github
+bs4
+langdetect
+requests
