@@ -1,6 +1,6 @@
 **About your README**
 
-I congratulate you for getting so much star by sharing this code with humanity.
+I congratulate you for getting so much star by sharing this repository with humanity.
 
 I'm always disappointing when I couldn't understand a trending repository and I think I am not alone about that. When we see this article, our minds are blurring like that Gollum.
 
