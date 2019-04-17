@@ -49,19 +49,19 @@ def creating_issue(repo, repo_language):
                                   body=f.read())
         print('Issue created in {}.'.format(repo.full_name))
         save_created_issues(repo.full_name, issue.number)
+    created_repos_file.close()
     f.close()
 
 
 def save_created_issues(repo, issue_number):
     """ Write created issues to `created_repo_issues.md` """
-    f = open("created_repo_issues.md", "a+")
-    f.write(_issue_template.format(repo=repo, issue_number=issue_number))
+    with open("created_repo_issues.md", "a+") as f:
+        f.write(_issue_template.format(repo=repo, issue_number=issue_number))
 
 
 def main():
     for repo in get_trending_as_json():
         repo_name = repo['username'] + '/' + repo['repo']['name']
-        print(repo_name)
         check_repo_language(repo_name)
 
 
