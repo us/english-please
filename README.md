@@ -3,7 +3,9 @@
 
 **This is an offer to repositories that are written a Chinese language.**
 
-Basicly this script checks the trend repos and it will open a issue to the chinese language repos about the English translation. 
+In the beautiful mornings most people be disappointed when they see too many Chinese repos on the github trendings. There are a limited number of trend repos and it is not possible to read close to half of them. That thing upset most developer and cost bad mornings.
+
+This script checks the trend repos and it will open a issue to the chinese language repos about the English translation. 
 
 _[issue_body.md](https://github.com/us/hey-dude/blob/master/issue_body.md) is a issue context._
 
