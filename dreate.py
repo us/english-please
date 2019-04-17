@@ -7,6 +7,8 @@ import re
 
 g = Github("")  # github auth token
 
+_issue_template = " - [{repo}](https://github.com/{repo}/issues/{issue_number})\n"
+
 
 def markdown_to_text(markdown_string):
     """ Converts a markdown string to plaintext """
@@ -31,19 +33,29 @@ def get_trending_as_json():
     return response
 
 
-def check_repo(repo_name):
+def check_repo_language(repo_name):
     repo = g.get_repo(repo_name)
     readme = repo.get_readme().decoded_content
     readme = markdown_to_text(readme)
-    md_language = detect(readme)
 
-    f = open("issue_body.md", "r")
-
-    # if md_language == 'en':
-    #   #issue = repo.create_issue(title="This is a new issue", body=f.read())
-    #   print('Issue created.')
-    f.close()
+    repo_language = detect(readme)
+    creating_issue(repo, repo_language)
     print(detect(readme))
+
+
+def creating_issue(repo, repo_language):
+    f = open("issue_body.md", "r", encoding="utf-8")
+    issue = ''
+    if repo_language == 'en':
+        issue = repo.create_issue(title="About sharing knowledge", body=f.read())
+        print('Issue created.')
+    f.close()
+    save_created_issues(repo.full_name, issue.number)
+
+
+def save_created_issues(repo, issue_number):
+    f = open("created_repo_issues.md", "a+")
+    f.write(_issue_template.format(repo=repo, issue_number=issue_number))
 
 
 def main():
@@ -52,8 +64,8 @@ def main():
     for repo in get_trending_as_json():
         repo_name = repo['username'] + '/' + repo['repo']['name']
         print(repo_name)
-        check_repo(repo_name)
-    print(check_repo('linlinjava/litemall'))
+        check_repo_language(repo_name)
+
 
 if __name__ == '__main__':
     main()
