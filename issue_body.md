@@ -13,7 +13,7 @@ I'm always disappointing when I couldn't understand a trending repository and I 
 but there are a lot of people who want to know this beautiful source but can't read.
 
 ### What we want:
- - Please add English translation to sharing knowledge to more people.
+ - Add English translation to sharing knowledge to more people.
 
 ### What our promise:
  - More feedback to improve project.
