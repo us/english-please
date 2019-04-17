@@ -45,12 +45,13 @@ def check_repo_language(repo_name):
 
 def creating_issue(repo, repo_language):
     f = open("issue_body.md", "r", encoding="utf-8")
-    issue = ''
-    if repo_language == 'en':
+    created_repos_file = open("created_repo_issues.md", "r", encoding="utf-8")
+    created_repos = created_repos_file.read()
+    if repo_language == 'en' and repo.full_name not in created_repos:
         issue = repo.create_issue(title="About sharing knowledge", body=f.read())
         print('Issue created.')
+        save_created_issues(repo.full_name, issue.number)
     f.close()
-    save_created_issues(repo.full_name, issue.number)
 
 
 def save_created_issues(repo, issue_number):
