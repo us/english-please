@@ -3,7 +3,11 @@
 
 **This is an offer to repositories that are written a Chinese language.**
 
-Basicly this script checks the trend repos and it will open a issue to the chinese language repos about the English translation. Please check the [issue_body.md](https://github.com/us/hey-dude/blob/master/issue_body.md) to issue context.
+Basicly this script checks the trend repos and it will open a issue to the chinese language repos about the English translation. 
+
+_[issue_body.md](https://github.com/us/hey-dude/blob/master/issue_body.md) is a issue context._
+
+_[created_repo_issues.md](https://github.com/us/hey-dude/blob/master/created_repo_issues.md) contains opened repos issues._
 
 We want to say just one thing:
 
