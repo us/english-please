@@ -24,3 +24,7 @@ There is a way **you can help** to solve this disappointment which I believe is 
 _“Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give something without loosing something.”_
 
 _**— Richard Stallman**_
+
+**Thank you!**	
+
+ > This issue created by us/hey-you script. Please report on any error. Thank you!
