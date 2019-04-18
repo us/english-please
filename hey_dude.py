@@ -36,7 +36,6 @@ def check_repo_language(repo_name):
 
     repo_language = detect(readme)
     creating_issue(repo, repo_language)
-    print(detect(readme))
 
 
 def creating_issue(repo, repo_language):
@@ -48,10 +47,12 @@ def creating_issue(repo, repo_language):
         try:
             issue = repo.create_issue(title="About sharing knowledge",
                                       body=f.read())
-            print('Issue created in {}.'.format(repo.full_name))
+            print('Issue created in {}.'.format(repo.full_name)
+                  )
             save_created_issues(repo.full_name, issue.number)
         except:
             print(repo.full_name + ' issue could\'nt opened.')
+            pass
 
     created_repos_file.close()
     f.close()
