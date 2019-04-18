@@ -43,7 +43,7 @@ def creating_issue(repo, repo_language):
     f = open("issue_body.md", "r", encoding="utf-8")
     created_repos_file = open("created_repo_issues.md", "r", encoding="utf-8")
     created_repos = created_repos_file.read()
-    if repo_language == 'en' and repo.full_name not in created_repos:
+    if repo_language != 'en' and repo.full_name not in created_repos:
         try:
             issue = repo.create_issue(title="About sharing knowledge",
                                       body=f.read())
