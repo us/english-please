@@ -5,11 +5,13 @@
 
 In the beautiful mornings most people be disappointed when they see too many Chinese repos on the github trendings. There are a limited number of trend repos and it is not possible to read close to half of them. That thing upset most developer and cost bad mornings.
 
-This script checks the trend repos and it will open a issue to the chinese language repos about the English translation. 
+This script checks the trend repos and it will open a issue to the Chinese language repos about the English translation. 
 
 _[issue_body.md](https://github.com/us/hey-dude/blob/master/issue_body.md) is a issue context._
 
 _[created_repo_issues.md](https://github.com/us/hey-dude/blob/master/created_repo_issues.md) contains opened repos issues._
+
+**Note :** If you see any Chinese repos, you can use `issue_body.md` context to open an issue to Chinese repos.
 
 We want to say just one thing:
 
@@ -21,7 +23,7 @@ Firstly we congratulate you for getting so much star by sharing this repository 
 
 We're always disappointing when we couldn't understand a trending repository and we think we are not alone about that. 
 
-When we see this article, our minds are blurring like that Gollum.
+When we see these repo on trending, our minds are blurring like that Gollum.
 
 ![Gollum Image](https://media.giphy.com/media/V4uGHRgz0zi6Y/giphy-downsized-large.gif)
 
