@@ -1,6 +1,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 # Hey Dude 
 
+(I will add chinese version of this repo as soon as possible for Chinese friends to understand better.)
+
 **This is an offer to repositories that are written a Chinese language.**
 
 In the beautiful mornings most people be disappointed when they see too many Chinese repos on the github trendings. There are a limited number of trend repos and it is not possible to read close to half of them. That thing upset most developer and cost bad mornings.
