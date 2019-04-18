@@ -1,31 +1,26 @@
-### About your README
+### What is the problem with Chinese README's
 
-I congratulate you for getting so much star by sharing this repository with humanity.
+Firstly, we congratulate you for getting so much star by sharing this repository with humanity.
 
-I'm always disappointing when I couldn't understand a trending repository and I think I am not alone about that. When we see this article, our minds are blurring like that Gollum.
+But it is very disappointing for non-Chinese speakers when one couldn't understand what a trending repository is about.
+
+When we see such a repo on trending, our minds are blurring like Gollum's.
 
 ![Gollum Image](https://media.giphy.com/media/V4uGHRgz0zi6Y/giphy-downsized-large.gif)
 
-**Maybe** you will want to help more people,
-
-![SungerBob Image](https://media.giphy.com/media/3o7absbD7PbTFQa0c8/source.gif)
-
-but there are a lot of people who want to know this beautiful source but can't read.
+There is a way **you can help** to solve this disappointment which I believe is experienced by many people who want to know more about your valuable work and appreciate it.
 
 ### What we want:
- - Add English translation to sharing knowledge to more people.
+ - Please add English translation of your README so you are sharing your work and knowledge with more people.
 
-### What our promise:
- - More feedback to improve project.
+### How this will help you:
+ - More feedback to fix and improve your project.
  - New ideas about your project.
- - Great fame.
+ - Greater fame.
+ - ![SungerBob Image](https://media.giphy.com/media/3o7absbD7PbTFQa0c8/source.gif)
 
 ---
 
 _“Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give something without loosing something.”_
 
 _**— Richard Stallman**_
-
-**Thank you!**
-
-> This issue created by us/hey-you script. Please report on any error. Thank you!
