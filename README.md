@@ -1,5 +1,5 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-# Hey Dude 
+# English Please 
 
 (I will add chinese version of this repo as soon as possible for Chinese friends to understand better.)
 
