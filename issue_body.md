@@ -6,11 +6,7 @@ I'm always disappointing when I couldn't understand a trending repository and I 
 
 ![Gollum Image](https://media.giphy.com/media/V4uGHRgz0zi6Y/giphy-downsized-large.gif)
 
-**Maybe** you will want to help more people,
-
-![SungerBob Image](https://media.giphy.com/media/3o7absbD7PbTFQa0c8/source.gif)
-
-but there are a lot of people who want to know this beautiful source but can't read.
+**Maybe** you will want to help us, there are a lot of people who want to know this beautiful source but can't read.
 
 ### What we want:
  - Add English translation to sharing knowledge to more people.
@@ -19,6 +15,7 @@ but there are a lot of people who want to know this beautiful source but can't r
  - More feedback to improve project.
  - New ideas about your project.
  - Great fame.
+ - ![SungerBob Image](https://media.giphy.com/media/3o7absbD7PbTFQa0c8/source.gif)
 
 ---
 
