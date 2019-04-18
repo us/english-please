@@ -3,41 +3,41 @@
 
 (I will add chinese version of this repo as soon as possible for Chinese friends to understand better.)
 
-**This is an offer to repositories that are written a Chinese language.**
+**This is an offer for repositories whose README are written in Chinese.**
 
-In the beautiful mornings most people be disappointed when they see too many Chinese repos on the github trendings. There are a limited number of trend repos and it is not possible to read close to half of them. That thing upset most developer and cost bad mornings.
+Most people are disappointed when they see too many Chinese repos on Github trendings. There are only a limited number of trending repos and it is not possible to read close to half of them. This upsets most developers and ruins their habit of checking trending repos to discover more great open software.
 
-This script checks the trend repos and it will open a issue to the Chinese language repos about the English translation. 
+This script checks the trending repos and it will automatically open an issue to the Chinese language repos requesting for English translation. 
 
 _[issue_body.md](https://github.com/us/hey-dude/blob/master/issue_body.md) is a issue context._
 
 _[created_repo_issues.md](https://github.com/us/hey-dude/blob/master/created_repo_issues.md) contains opened repos issues._
 
-**Note :** If you see any Chinese repos, you can use `issue_body.md` context to open an issue to Chinese repos.
+**Note :** If you see any Chinese repos that seems interesting to you, you can use `issue_body.md` to open an issue to that repo.
 
 We want to say just one thing:
 
 ---
 
-### Our Problem about Chinese README
+### What is the problem with Chinese README's
 
-Firstly we congratulate you for getting so much star by sharing this repository with humanity.
+Firstly, we congratulate you for getting so much star by sharing this repository with humanity.
 
-We're always disappointing when we couldn't understand a trending repository and we think we are not alone about that. 
+But it is very disappointing for non-Chinese speakers when one couldn't understand what a trending repository is about.
 
-When we see these repo on trending, our minds are blurring like that Gollum.
+When we see such a repo on trending, our minds are blurring like Gollum's.
 
 ![Gollum Image](https://media.giphy.com/media/V4uGHRgz0zi6Y/giphy-downsized-large.gif)
 
-**Maybe** you will want to help us, there are a lot of people who want to know this beautiful source but can't read.
+There is a way **you can help** to solve this disappointment which I believe is experienced by many people who want to know more about your valuable work and appreciate it.
 
 ### What we want:
- - Add English translation to sharing knowledge to more people.
+ - Please add English translation of your README so you are sharing your work and knowledge with more people.
 
-### What our promise:
- - More feedback to improve project.
+### How this will help you:
+ - More feedback to fix and improve your project.
  - New ideas about your project.
- - Great fame.
+ - Greater fame.
  - ![SungerBob Image](https://media.giphy.com/media/3o7absbD7PbTFQa0c8/source.gif)
 
 ---
