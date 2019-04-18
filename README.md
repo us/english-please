@@ -43,3 +43,6 @@ When we see these repo on trending, our minds are blurring like that Gollum.
 _“Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give something without loosing something.”_
 
 _**— Richard Stallman**_
+
+## License
+This project is licensed under [GLWTPL](https://github.com/us/hey-dude/blob/master/LICENSE)
