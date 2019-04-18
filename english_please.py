@@ -45,7 +45,7 @@ def creating_issue(repo, repo_language):
     created_repos = created_repos_file.read()
     if repo_language != 'en' and repo.full_name not in created_repos:
         try:
-            issue = repo.create_issue(title="About sharing knowledge",
+            issue = repo.create_issue(title="English Please",
                                       body=f.read())
             print('Issue created in {}.'.format(repo.full_name))
             save_created_issues(repo.full_name, issue.number)
