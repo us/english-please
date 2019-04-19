@@ -1,5 +1,5 @@
 six
-github
+PyGithub
 bs4
 langdetect
 requests
