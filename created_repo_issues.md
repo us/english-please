@@ -13,3 +13,7 @@ These are the issues created by this repo.
  - [PKUanonym/REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT/issues/4)
  - [airuikun/Weekly-FE-Interview](https://github.com/airuikun/Weekly-FE-Interview/issues/22)
  - [CoolPhilChen/SJTU-Courses](https://github.com/CoolPhilChen/SJTU-Courses/issues/5)
+ - [apachecn/AiLearning](https://github.com/apachecn/AiLearning/issues/498)
+ - [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes/issues/12)
+ - [halo-dev/halo](https://github.com/halo-dev/halo/issues/140)
+ - [looly/hutool](https://github.com/looly/hutool/issues/335)
