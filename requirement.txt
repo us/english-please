@@ -3,3 +3,4 @@ github
 bs4
 langdetect
 requests
+apscheduler

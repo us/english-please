@@ -4,6 +4,7 @@ from langdetect import detect
 from bs4 import BeautifulSoup
 from markdown import markdown
 import re
+from apscheduler.schedulers.blocking import BlockingScheduler
 
 g = Github("")  # github auth token
 
@@ -63,10 +64,16 @@ def save_created_issues(repo, issue_number):
         f.write(_issue_template.format(repo=repo, issue_number=issue_number))
 
 
-def main():
+def main_job():
     for repo in get_trending_as_json():
         repo_name = repo['username'] + '/' + repo['repo']['name']
         check_repo_language(repo_name)
+
+
+def main():
+    scheduler = BlockingScheduler()
+    scheduler.add_job(main_job(), 'interval', hours=12)
+    scheduler.start()
 
 
 if __name__ == '__main__':
