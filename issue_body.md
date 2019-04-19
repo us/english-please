@@ -27,4 +27,4 @@ _**— Richard Stallman**_
 
 **Thank you!**	
 
- > This issue created by `us/english-please` script. Please report on any error. Thank you!
+ > This issue created by [us/english-please](github.com/us/english-please) script. Please report on any error. Thank you!
