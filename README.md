@@ -9,6 +9,8 @@ Most people are disappointed when they see too many Chinese repos on Github tren
 
 This script checks the trending repos and it will automatically open an issue to the Chinese language repos requesting for English translation. 
 
+For installation check [installation.md](https://github.com/us/hey-dude/blob/master/installation.md)
+
 _[issue_body.md](https://github.com/us/hey-dude/blob/master/issue_body.md) is a issue context._
 
 _[created_repo_issues.md](https://github.com/us/hey-dude/blob/master/created_repo_issues.md) contains opened repos issues._
