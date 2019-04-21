@@ -17,3 +17,6 @@ These are the issues created by this repo.
  - [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes/issues/12)
  - [halo-dev/halo](https://github.com/halo-dev/halo/issues/140)
  - [looly/hutool](https://github.com/looly/hutool/issues/335)
+ - [mohanson/gameboy](https://github.com/mohanson/gameboy/issues/2)
+ - [Louiszhai/tool](https://github.com/Louiszhai/tool/issues/4)
+ - [kasuganosoras/cxk-ball](https://github.com/kasuganosoras/cxk-ball/issues/10)
