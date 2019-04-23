@@ -1,4 +1,4 @@
-from github import Github
+from github import Github, GithubException
 import requests
 from langdetect import detect
 from bs4 import BeautifulSoup
@@ -30,13 +30,16 @@ def get_trending_as_json():
 
 def check_repo_language(repo_name):
     """Get, clean and check repos README.md language"""
-    repo = g.get_repo(repo_name)
-    readme = repo.get_readme().decoded_content
-    readme = markdown_to_text(readme)
+    try:
+        repo = g.get_repo(repo_name)
+        readme = repo.get_readme().decoded_content
+        readme = markdown_to_text(readme)
 
-    repo_language = detect(readme)
-    creating_issue(repo, repo_language)
-
+        repo_language = detect(readme)
+        creating_issue(repo, repo_language)
+    except GithubException as e:
+        print(e, ", issue couldn't created! ",repo_name)
+        pass
 
 def creating_issue(repo, repo_language):
     """ Create issue according to README.md language. """
