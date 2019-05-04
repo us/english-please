@@ -50,3 +50,8 @@ _**— Richard Stallman**_
 
 ## License
 This project is licensed under [GLWTPL](https://github.com/us/hey-dude/blob/master/LICENSE)
+
+## Disclaimer
+It is built for educational purposes only. If you choose to use it otherwise, the developers will not be held responsible. Please, do not use it with evil intent.
+
+
