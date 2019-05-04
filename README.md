@@ -5,7 +5,7 @@
 
 **This is an offer for repositories whose README are written in Chinese.**
 
-Most people are disappointed when they see too many Chinese repos on Github trendings. There are only a limited number of trending repos and it is not possible to read close to half of them. This upsets most developers and ruins their habit of checking trending repos to discover more great open software.
+Some people are disappointed when they see too many Chinese repos on Github trendings. There are only a limited number of trending repos and it is not possible to read close to half of them. This upsets some developers and ruins their habit of checking trending repos to discover more great open software.
 
 This script checks the trending repos and it will automatically open an issue to the Chinese language repos requesting for English translation. 
 
