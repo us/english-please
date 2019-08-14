@@ -23,7 +23,7 @@ def markdown_to_text(markdown_string):
 
 def get_trending_as_json():
     """ Get github trending as json from unofficial trending api. """
-    response = requests.get('https://github-trending-api.now.sh/developers')
+    response = requests.get('https://github-trending-api.now.sh/')
     response = response.json()
     return response
 
@@ -68,7 +68,7 @@ def save_created_issues(repo, issue_number):
 
 def main():
     for repo in get_trending_as_json():
-        repo_name = repo['username'] + '/' + repo['repo']['name']
+        repo_name = repo['url'][19:]
         check_repo_language(repo_name)
 
 
