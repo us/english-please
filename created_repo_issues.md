@@ -47,3 +47,7 @@ These are the issues created by this repo.
  - [haizlin/fe-interview](https://github.com/haizlin/fe-interview/issues/1082)
  - [b3log/30-seconds-zh_CN](https://github.com/b3log/30-seconds-zh_CN/issues/1)
  - [syhyz1990/baiduyun](https://github.com/syhyz1990/baiduyun/issues/218)
+ - [xiaomuzhu/front-end-interview](https://github.com/xiaomuzhu/front-end-interview/issues/10)
+ - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede/issues/1552)
+ - [nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic/issues/182)
+ - [justauth/JustAuth](https://github.com/justauth/JustAuth/issues/37)
